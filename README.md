@@ -6,8 +6,8 @@ A quick Unity project to compare a Revit sample model and a Blender‐made resta
 
 ## 📝 Overview
 
-- **Purpose**: Validate that a Revit-exported model and a Blender model run smoothly together in a Unity WebGL build.  
-- **Scene**: One unified scene (`SampleScene.unity`) containing:
+- **Purpose**: Validate that a Revit-exported model run smoothly in a Unity WebGL build.  
+- **Scene**: One scene (`SampleScene.unity`) containing:
   - The Autodesk Revit sample model  
   - A custom restaurant model from Blender  
 - **Key Finding**: Stable ~100 FPS in desktop browsers. The only artifact is a flickering wall on the Revit model.
@@ -25,5 +25,5 @@ A quick Unity project to compare a Revit sample model and a Blender‐made resta
 ### Clone & Open
 
 ```bash
-git clone https://github.com/your-username/unity-revit-webgl-test.git
-cd unity-revit-webgl-test
+git clone https://github.com/redbeluga/Interaction-WebGL.git
+cd Interaction-WebGL
