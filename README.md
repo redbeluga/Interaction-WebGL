@@ -1,14 +1,16 @@
-# Unity WebGL Revit-Blender Model Test
+# Unity WebGL Revit vs. Blender Model Test
 
-A small Unity project to evaluate how Revit and Blender models perform when built for WebGL. This repo contains two 3D scenes—one using an Autodesk-exported Revit sample and one using a custom Blender-made restaurant—and measures stability, performance, and simple interactivity in a browser.
+A quick Unity project to compare a Revit sample model and a Blender‐made restaurant model in a single WebGL scene. Both models are placed side by side under the same lighting and camera setup to test stability, performance, and basic interaction.
 
 ---
 
 ## 📝 Overview
 
-- **Purpose**: Verify that Revit models can be imported, rendered, and run smoothly in a Unity WebGL build.
-- **Scope**: Compare a Revit sample model (Autodesk) against a Blender restaurant model under identical conditions.
-- **Key Finding**: Both scenes run at a stable ~100 FPS in Chrome/Edge. The only visual glitch is a flickering artifact on one wall of the Revit model.
+- **Purpose**: Validate that a Revit-exported model and a Blender model run smoothly together in a Unity WebGL build.  
+- **Scene**: One unified scene (`SampleScene.unity`) containing:
+  - The Autodesk Revit sample model  
+  - A custom restaurant model from Blender  
+- **Key Finding**: Stable ~100 FPS in desktop browsers. The only artifact is a flickering wall on the Revit model.
 
 ---
 
@@ -16,8 +18,8 @@ A small Unity project to evaluate how Revit and Blender models perform when buil
 
 ### Prerequisites
 
-- **Unity** 2021.3 LTS (or newer) with WebGL Build Support
-- Git
+- **Unity 6** with **WebGL Build Support**  
+- Git  
 - A modern WebGL-capable browser (Chrome, Edge, Firefox)
 
 ### Clone & Open
